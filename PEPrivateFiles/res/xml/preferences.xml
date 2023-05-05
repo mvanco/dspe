@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Modules" >
+        <SwitchPreference
+            android:key="file_scanning"
+            android:title="File-based Scanning"
+            android:summary="Turn on/off tainting propagation in order to optimize protection."
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:dependency="file_scanning"
+            android:key="content_scanning"
+            android:title="Content-based Monitor"
+            android:summary="Turn on/off content-based monitoring. It is more memory-intensive."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Restriction" >
+        <SwitchPreference
+            android:key="restriction"
+            android:title="Resctriction"
+            android:summary="Turn on/off restriction of sharing files"
+            android:defaultValue="true" />
+        <ListPreference
+            android:dependency="restriction"
+            android:entries="@array/restriction_types_entries"
+            android:entryValues="@array/restriction_types_values"
+            android:key="restriction_types"
+            android:title="Type of Restriction"
+            android:summary="How should be addressed security incidents."
+            android:defaultValue="1" />
+        <ListPreference
+            android:dependency="restriction"
+            android:entries="@array/restriction_methods_entries"
+            android:entryValues="@array/restriction_methods_values"
+            android:key="restriction_methods"
+            android:title="Restriction Methods"
+            android:summary="Types of Restriction Methods"
+            android:defaultValue="3" />
+         <SwitchPreference
+            android:dependency="file_scanning"
+            android:key="threat_level"
+            android:title="Increased Threat Level"
+            android:summary="Turn on/off restriction of openning files"
+            android:defaultValue="false" />
+         <ListPreference
+            android:dependency="threat_level"
+            android:entries="@array/threat_level_types_entries"
+            android:entryValues="@array/threat_level_types_values"
+            android:key="threat_level_types"
+            android:title="Type of data falsifying"
+            android:summary="What type of fake data should be used."
+            android:defaultValue="1" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Logging" >
+        <SwitchPreference 
+            android:key="logging"
+            android:title="Logging"
+            android:summary="Turn on/off logging of applications"
+            android:defaultValue="0" />
+        <Preference
+            android:key="delete_log"
+            android:title="Delete Log Files"
+            android:summary="Clear logging cache by removing all log files" />
+        
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+
+
+<!--
+    <PreferenceCategory android:title="Všeobecné nastavenia" >
+        <CheckBoxPreference
+            android:key="points"
+            android:title="Vkladať body" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Upozorňovanie na pred koncom prezentácie" >
+        <CheckBoxPreference
+            android:key="sound"
+            android:title="Zapnúť zvuk" />
+        <CheckBoxPreference
+            android:key="vibration"
+            android:title="Zapnúť vibrovanie" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Nastavenie konfigurovateľného exportu" >
+        
+                <CheckBoxPreference
+            android:key="empty_col"
+            android:title="Používať prázdne stĺpce"
+            android:summary="Nastaví, či sa budú nenastavené stĺpce zobrazovať ako prázdne" />
+    
+    <PreferenceScreen
+        android:key="konfigur_export"
+        android:summary="Umožní výber jednotlivých stĺpcov tabuliek, ktoré sa majú exportovať"
+        android:title="Výber stĺpcov" >
+
+
+    
+        <PreferenceScreen
+            android:key="stlpce_akcie"
+            android:title="Stĺpce akcie" >
+            <PreferenceCategory android:title="Stĺpce akcie" >
+                <CheckBoxPreference
+                    android:key="a_name"
+                    android:title="Meno" />
+                <CheckBoxPreference
+                    android:key="a_organizators"
+                    android:title="Organizátori" />
+                <CheckBoxPreference
+                    android:key="a_location"
+                    android:title="Miesto" />
+                <CheckBoxPreference
+                    android:key="a_begin"
+                    android:title="Začiatok" />
+                <CheckBoxPreference
+                    android:key="a_dur_blocks"
+                    android:title="Trvanie blokov" />
+                <CheckBoxPreference
+                    android:key="a_dur_pres"
+                    android:title="Trvanie prezentácií" />
+                <CheckBoxPreference
+                    android:key="a_warning"
+                    android:title="Upozornenie" />
+                <CheckBoxPreference
+                    android:key="a_notes"
+                    android:title="Poznámky" />                
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="stlpce_prezentacie"
+            android:title="Stĺpce prezentácie" >
+            <PreferenceCategory android:title="Stĺpce prezentácie" >
+                <CheckBoxPreference
+                    android:key="p_begin"
+                    android:title="Začiatok" />
+                <CheckBoxPreference
+                    android:key="p_name"
+                    android:title="Meno" />
+                <CheckBoxPreference
+                    android:key="p_authors"
+                    android:title="Autori" />
+                <CheckBoxPreference
+                    android:key="p_dur_blocks"
+                    android:title="Trvanie blokov" />
+                <CheckBoxPreference
+                    android:key="p_dur_pres"
+                    android:title="Trvanie prezentácií" />
+                <CheckBoxPreference
+                    android:key="p_points"
+                    android:title="Body" />
+                <CheckBoxPreference
+                    android:key="p_notes"
+                    android:title="Poznámky" />   
+            </PreferenceCategory>
+        </PreferenceScreen>
+
+</PreferenceScreen>
+
+</PreferenceCategory>
+-->

@@ -1,0 +1,97 @@
+GNU gdb (GDB) 7.7
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "--host=x86_64-pc-mingw32msvc --target=arm-linux-android".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://source.android.com/source/report-bugs.html>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+warning: Could not load shared library symbols for 65 libraries, e.g. /system/bin/linker.
+Use the "info sharedlibrary" command to see the complete listing.
+Do you need "set solib-search-path" or "set sysroot"?
+warning: Unable to find dynamic linker breakpoint function.
+GDB will be unable to debug shared library initializers
+and track explicitly loaded dynamic code.
+[New Thread 2034]
+[New Thread 2037]
+[New Thread 2038]
+[New Thread 2039]
+[New Thread 2040]
+[New Thread 2041]
+[New Thread 2042]
+[New Thread 2043]
+[New Thread 2044]
+[Switching to Thread 2031]
+[Switching to Thread 2031]
+[Switching to Thread 2044]
+[Switching to Thread 2044]
+[New Thread 2069]
+[Switching to Thread 2031]
+[Switching to Thread 2044]
+[Switching to Thread 2031]
+[Switching to Thread 2069]
+[Switching to Thread 2069]
+[Switching to Thread 2031]
+[Switching to Thread 2069]
+[New Thread 2070]
+[Switching to Thread 2069]
+[Switching to Thread 2031]
+[Switching to Thread 2069]
+[New Thread 2071]
+[Switching to Thread 2070]
+[Switching to Thread 2031]
+[Switching to Thread 2070]
+[Switching to Thread 2031]
+[Switching to Thread 2071]
+[Switching to Thread 2070]
+[Switching to Thread 2071]
+[Switching to Thread 2031]
+[New Thread 2072]
+Cannot access memory at address 0x0
+Cannot access memory at address 0x0
+[Switching to Thread 2071]
+[Switching to Thread 2031]
+[Switching to Thread 2072]
+[Switching to Thread 2031]
+[New Thread 2073]
+Cannot access memory at address 0x0
+Cannot access memory at address 0x0
+[Switching to Thread 2072]
+[Switching to Thread 2031]
+[Switching to Thread 2073]
+[Switching to Thread 2031]
+[New Thread 2074]
+[Switching to Thread 2073]
+[Switching to Thread 2031]
+[Switching to Thread 2074]
+[Switching to Thread 2031]
+[New Thread 2075]
+Cannot access memory at address 0x0
+Cannot access memory at address 0x0
+[Switching to Thread 2074]
+[Switching to Thread 2031]
+[Switching to Thread 2075]
+[Switching to Thread 2031]
+[New Thread 2076]
+[Switching to Thread 2075]
+[Switching to Thread 2031]
+[Switching to Thread 2076]
+[Switching to Thread 2031]
+[New Thread 2077]
+Cannot access memory at address 0x80000000
+[Switching to Thread 2076]
+Cannot access memory at address 0x80000000
+[Switching to Thread 2077]
+[Switching to Thread 2041]
+[Switching to Thread 2077]
+Single stepping until exit from function __ioctl,
+which has no line number information.
+[New Thread 2079]
+Quit (expect signal SIGINT when the program is resumed)
+Could not AssignProcessToObject

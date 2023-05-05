@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="restriction_types_entries">
+        <item>Confirmation Dialog</item>
+        <item>Direct Restriction</item>
+    </string-array>
+    
+    <string-array name="restriction_types_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="restriction_methods_entries">
+        <item>Communication Mediation</item>
+        <item>File Protection</item>
+        <item>Both</item>
+    </string-array>
+    
+    <string-array name="restriction_methods_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="threat_level_types_entries">
+        <item>Empty Data</item>
+        <item>Fake Data</item>
+    </string-array>
+    
+    <string-array name="threat_level_types_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

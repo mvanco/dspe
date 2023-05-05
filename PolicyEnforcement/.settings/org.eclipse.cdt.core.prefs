@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1923350459/LD_LIBRARY_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1923350459/LD_LIBRARY_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.1923350459/LD_LIBRARY_PATH/value=C\:\\Users\\Matus\\Documents\\\u0160kola\\MBS-DiplomovaPraca\\src\\PolicyEnforcement\\libs\\armeabi-v7a
+environment/project/com.android.toolchain.gcc.1923350459/append=true
+environment/project/com.android.toolchain.gcc.1923350459/appendContributed=true

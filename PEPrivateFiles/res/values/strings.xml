@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PE Private Files</string>
+    <string name="title_section1">Private Files</string>
+    <string name="title_section2">Configuration</string>
+    <string name="title_section3">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Select File</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_quit">Quit</string>
+    <string name="title_file_dialog">Select Files</string>
+    
+    <!-- Strings from android-file-dialog project -->
+    <string name="location">Path</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select Private File/Folder</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <color name="gray">#ffff0000</color>
+    <string name="err">Error</string>
+    
+    
+    
+    <string name="list_view_empty">No Selected Files</string>
+    
+    <string name="private_files_title">Private Files</string>
+    <string name="private_files_header_title">Private Files</string>
+    <string name="private_files_toast_duplicate">This file has been already added</string>
+    <string name="private_files_button_title">Delete All</string>
+    <string name="private_files_toast_saved">Selected file/folder has been secured according to configuration</string>
+    <string name="private_files_toast_cannot">Cannot save to configuration file!</string>
+    
+    <string name="configuration_title">Configuration</string>
+    
+    <string name="about_title">Policy Enforcement Project</string>
+    <string name="about_text">This work deals with the concepts of Android security and proposes the system for dynamic enforcement of access rights. Each suspicious application can be repackaged by this system, so that the access to selected private data is restricted for the outer world. In the first phase, interprocess communication and existing frameworks, which are capable to intercept communication between application and the operating system on the level of system calls, are explored. After that, the system is designed and developed, utilizing the possibilities of one of the compared frameworks – Aurasium framework. The system adds an innovative approach of tracking the information flows from the privacy-sensitive sources using tainting mechanism without need of administrator rights. There has been designed file-level and data-level taint propagation and policy enforcement based on Android binder.</string>
+    
+    
+    <string name="img_dsc_private_files">Image with private files</string>
+    <string name="img_dsc_insight">Insight image of application</string>
+    <string name="img_dsc_row_icon">Icon of file or folder</string>
+    <string name="img_dsc_add_button">Image of add button</string>
+    
+    <string name="alert_dialog_reset_title">Settings Changed!</string>
+    <string name="alert_dialog_reset_message">Do not forget to hard-reset all hardened applications to apply these changes! Each application must be started using launcher to load new configuration. It refers to almost all settings, only restriction settings are applied directly. This message will no longer appear :)</string>
+    <string name="alert_dialog_reset_buttontext">OK</string>
+
+    <string name="alert_dialog_restriction_changed_title">Settings Changed!</string>
+    <string name="alert_dialog_restriction_changed_message">Restriction settings are now applied in all hardened applications. This message will no longer appear :)</string>
+    <string name="alert_dialog_restriction_changed_buttontext">OK</string>
+    
+</resources>
