@@ -5,7 +5,6 @@ This work proposes the system for dynamic enforcement of access rights on Androi
 suspicious application can be repackaged by this system, so that the access to selected
 private data is restricted for the outer world. The system intercepts the system calls using
 Aurasium framework and adds an innovative approach of tracking the information flows
-
 from the privacy-sensitive sources using tainting mechanism without need of administra-
 tor rights. There has been designed file-level and data-level taint propagation and policy
 enforcement based on Android binder.
